@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fartbøde</title>
+  </head>
+  <body>
+    <h1>Fartbødemåler</h1>
+    <h3>Angiv køretøj</h3>
+    <form>
+      <input type="radio" name="vehicle" value="Personbil">Personbil, varebil og minibus<br>
+      <input type="radio" name="vehicle" value="Motorcykel">Motorcykel med og uden sidevogn<br>
+      <input type="radio" name="vehicle" value="Bus">Bus<br>
+      <input type="radio" name="vehicle" value="Lastbil">Lastbil<br>
+    </form>
+    <h3>Angiv vejtype</h3>
+    <form>
+      <input type="radio" name="roadType" value="Byzone">Byzone<br>
+      <input type="radio" name="roadType" value="Landevej">Landevej/ Motortrafikvej<br>
+      <input type="radio" name="roadType" value="Motorvej">Motorvej<br>
+    </form>
+    <h3>Angiv fartbegrænsning</h3>
+    <input type="integer"/>
+    <h2>Bøde: </h2>
+    <div id="ticket"></div>
+  </body>
+  <script type="text/javascript" src="src/js/ticket.js"></script>
+</html>
